@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <EditText
+        android:id="@+id/et_addName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:hint="@string/add_name"/>
+
+    <EditText
+        android:id="@+id/et_addNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:hint="@string/add_number"
+        android:layout_below="@id/et_addName"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/bt_close"
+        android:layout_marginStart="40dp"
+        android:text="@string/bt_save"
+        android:textSize="25sp"
+        android:textColor="@color/bt_text_color"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="67dp"
+        android:background="@drawable/custom_bt_add"/>
+
+    <Button
+        android:id="@+id/bt_close"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="161dp"
+        android:text="@string/bt_close"
+        android:textSize="25sp"
+        android:textColor="@color/bt_text_color"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="67dp"
+        android:background="@drawable/custom_bt_add"/>
+
+
+</RelativeLayout>

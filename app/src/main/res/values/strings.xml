@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestRecyclerView</string>
+    <string name="bt_add">Add</string>
+    <string name="add_name">Name</string>
+    <string name="add_number">Number Phone</string>
+    <string name="bt_save">Save</string>
+    <string name="bt_close">Close</string>
+    <string name="bt_delete">Delete</string>
+    <string name="bt_canle">Save_Update</string>
+</resources>

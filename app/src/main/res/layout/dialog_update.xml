@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/et_updateName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:textColor="@color/tv_text_color_dialog"/>
+
+    <EditText
+        android:id="@+id/et_updateNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:layout_below="@id/et_updateName"
+        android:textColor="@color/tv_text_color_dialog"/>
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/bt_saveUpdate"
+        android:layout_marginStart="30dp"
+        android:text="@string/bt_delete"
+        android:textSize="25sp"
+        android:textColor="@color/bt_text_color"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/custom_bt_update"/>
+
+    <Button
+        android:id="@+id/bt_saveUpdate"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="161dp"
+        android:text="@string/bt_canle"
+        android:textSize="25sp"
+        android:textColor="@color/bt_text_color"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_bt_update"/>
+
+</RelativeLayout>
